@@ -1,0 +1,76 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    background:#ecf0f3;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+/* START HEADER MENU SECTION */
+.logo_icon{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.navbar{
+    background:#f9f9f9ba;
+}
+.webColor{
+    color:rgb(68, 65, 65) !important;
+}
+nav ul li a{
+    color:rgb(68, 65, 65) !important;
+}
+nav ul li a:hover{
+    color:#ff014f !important;
+}
+.active{
+    color:#ff014f !important;
+}
+/* START HOME SECTION */
+.home_title{
+    margin-top:120px;
+}
+.new_font{
+    font-size:20px;
+    letter-spacing: 4px;
+}
+.akib_color{
+    color:#ff014f;
+}
+.text_align{
+    text-align:justify;
+    color:rgb(68 68 68);
+}
+.icon_top h5{
+    font-weight: 400;
+}
+.round{
+    border-radius: 20px;
+}
+.img-fluid{
+    height: 90% !important;
+}
+.social_lf{
+    float:left;
+    margin:10px;
+}
+.new_icon_ms{
+    margin-left:0px !important;
+}
+.social_lf a{
+    padding:10px;
+    display:block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color:rgb(102, 102, 102);
+    border-radius: 8px;
+    background:#fff;
+    transition:.5s;
+}
+.social_lf a:hover{
+    background:#ff014f;
+    color:#fff;
+}
+.social_lf a i{
+    padding:13px;
+}

@@ -1,0 +1,57 @@
+/* MAX-WIDTH 1440PX */
+@media only screen and (max-width: 1400px){
+   .nav-item{
+       padding-left:0 !important;
+   }
+   .new_ms{
+       margin-left:0!important;
+   }
+   .home_title{
+    margin-top:10px;
+  }
+  .home_title h1{
+      font-size:41px !important;
+  }
+  .new_mt{
+      margin-top:50px;
+  }
+  .icon_top{
+      margin-top:0px !important;
+      padding-top:20px !important;
+  }
+}
+/* MAX WIDTH 992PX */
+@media only screen and (max-width:992px){
+    #navbarNav{
+        background:#f9f9f9ba;
+        margin-top:10px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .new_mt{
+        position: relative;
+    }
+    .home_title{
+        position:absolute;
+        margin-top:945px;
+        padding-bottom:30px;
+    }
+    .home_slide{
+        position:absolute;
+    }
+}
+/* MAX WIDTH 768/PX */
+@media only screen and (max-width:768px){
+    .new_mt{
+        margin-top:0px;
+    }
+    .home_title{
+        margin-top: 720px;
+    }
+}
+/* MAX WIDTH 576PX */
+@media only screen and (max-width:576px){
+    .home_title{
+        margin-top: 720px;
+    }
+}
